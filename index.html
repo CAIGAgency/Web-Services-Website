@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=deveice-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>CAIG Web Services</title>
+  </head>
+  <body>
+    <!--- NAVIGATION --->
+    <div class="w3-top">
+        <div class="w3-bar w3-black">
+          <span class="branding w3-bar-item w3-mobile">CAIG Web Services</span>
+          <span class="w3-right w3-mobile">
+              <a href="#" class="w3-bar-item w3-button w3-mobile w3-hover-red">Home</a>
+              <a href="#about" class="w3-bar-item w3-button w3-mobile w3-hover-red">About</a>
+              <a href="#services" class="w3-bar-item w3-button w3-mobile w3-hover-red">Services</a>
+              <a href="#contact" class="w3-bar-item w3-button w3-mobile w3-hover-red">Contact</a>
+          </span>
+        </div>
+    </div>
+    <!-- END OF NAVIGATION -->
+
+    <!--- SHOWCASE --->
+    <section class="showcase">
+        <div class="w3-container w3-center">
+            <h1 class="w3-text-shadow w3-animate-opacity">Go Anywhere</h1>
+            <hr>
+            <p class="w3-animate-opacity">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim laboriosam ullam, ducimus harum. Iste expedita inventore mollitia perferendis, fugit magnam?</p>
+            <button onclick="document.getElementById('Start-modal').style.display='block'" class="w3-button w3-red w3-large w3-opacity">Start Here</button>
+        </div>
+    </section>
+    <!--- END OF SHOWCASE --->
+
+    <!--- SECTION 1 --->
+    <section class="section w3-red w3-hover-opacity">
+        <div class="w3-container w3-center">
+            <i class="fas fa-home"></i>
+            <h2>Welcome Home</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, repudiandae.</p>
+        </div>
+    </section>
+    <!--- END OF SECTION 1 --->
+
+    <!--- SECTION 2 --->
+    <section class="section w3-light-grey w3-hover-opacity">
+        <div class="w3-container w3-center">
+            <i class="fas fa-cog"></i>
+            <h2>Let's Begin</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, repudiandae.</p>
+        </div>
+    </section>
+    <!--- END OF SECTION 2 --->
+
+    <!--- SECTION ABOUT --->
+    <section id="about" class="section">
+        <div class="w3-container">
+            <div class="w3-row-padding">
+                <div class="w3-col m5">
+                    <img src="Img/about.jpg" alt="picture">
+                </div>
+                <div class="w3-col m7">
+                    <button onclick="accordionFunction('what')" class="w3-button-block w3-left-align w3-black">What We DO</button>
+
+                    <div id="what" class="w3-container w3-show">
+                        <h3>We Do It All</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia vero illo repudiandae explicabo impedit laudantium rerum sunt dolorum alias totam?</p>
+                    </div>
+
+                    <button onclick="accordionFunction('who')" class="w3-button-block w3-left-align w3-black">What We DO</button>
+
+                    <div id="who" class="w3-container w3-hide">
+                        <h3>We Are CAIG Agency</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia vero illo repudiandae explicabo impedit laudantium rerum sunt dolorum alias totam?</p>
+                    </div>
+
+                    <button onclick="accordionFunction('where')" class="w3-button-block w3-left-align w3-black">What We DO</button>
+
+                    <div id="where" class="w3-container w3-hide">
+                        <h3>We Are In Armenia and Quimbaya</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia vero illo repudiandae explicabo impedit laudantium rerum sunt dolorum alias totam?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--- END OF SECTION ABOUT --->
+
+    <!--- SERVICES HEADING --->
+    <section id="services" class="section w3-red w3-hover-opacity">
+        <div class="w3-container w3-center">
+            <h1 class="w3-text-shadow">Our Services</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis rerum consequatur iste quod nisi repudiandae similique, totam facilis, illo iure?</p>
+        </div>
+    </section>
+    <!--- END OF SERVICES HEADING --->
+
+    <!--- SECTION SERVICES --->
+    <section class="section w3-light-grey">
+        <div class="w3-container w3-center">
+            <div class="row">
+                <div class="w3-col m3">
+                    <i class="fas fa-comment w3-red w3-padding-small w3-round-xlarge"></i>
+                    <h3>Internet Marketing</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="w3-col m3">
+                    <i class="fas fa-search w3-red w3-padding-small w3-round-xlarge"></i>
+                    <h3>SEO</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="w3-col m3">
+                    <i class="fas fa-cubes w3-red w3-padding-small w3-round-xlarge"></i>
+                    <h3>Software Development</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="w3-col m3">
+                    <i class="fas fa-cloud w3-red w3-padding-small w3-round-xlarge"></i>
+                    <h3>Cloud Computing</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--- END OF SECTION SERVICES --->
+
+    <!--- CONTACT HEADING --->
+    <section id="contact" class="section w3-dark-grey w3-hover-opacity">
+        <div class="w3-container w3-center">
+            <h1 class="w3-text-shadow">GET IN TOUCH</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis rerum consequatur iste quod nisi repudiandae similique, totam facilis, illo iure?</p>
+        </div>
+    </section>
+    <!--- END OF CONTACT HEADING --->
+
+    <!--- CONTACT HEADING --->
+    <section class="section">
+        <div class="w3-container">
+            <div class="w3-card-4">
+                <div class="w3-container w3-dark-grey">
+                    <h2>Header</h2>
+                </div>
+                <form class="w3-container w3-padding-xlarge">
+                    <label class="w3-label">Name</label>
+                    <input class="w3-input" type="text">
+                    <label class="w3-label">Email</label>
+                    <input class="w3-input" type="text">
+                    <label class="w3-input">Message</label>
+                    <textarea class="w3-input w3-border" style="resize:none"></textarea>
+                    <br>
+                    <button type="submit" class="w3-button-ligth-grey">Submit</button>
+                    <br><br>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!--- END OF CONTACT HEADING --->
+
+    <!--- FOOTER --->
+    <footer class="w3-black w3-padding-xlarge w3-center">
+        <p>Project by CAIG Agency | &copy; 2018</p>
+    </footer>
+    <!--- END OF FOOTER --->
+
+    <!--- MODAL --->
+    <div id="Start-modal" class="w3-modal">
+        <div class="w3-modal-content">
+            <header class="w3-container w3-red">
+                <span onclick="document.getElementById('Start-modal').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+                <h2>Get Started</h2>
+            </header>
+
+            <div class="w3-container">
+                <form>
+                    <div class="w3-section">
+                        <label>Name</label>
+                        <input class="w3-input w3-border w3-margin-bottom" type="text" placeholder="Enter Name">
+                        <label>UserName</label>
+                        <input class="w3-input w3-border w3-margin-bottom" type="text" placeholder="Enter UserName">
+                        <label>Password</label>
+                        <input class="w3-input w3-border w3-margin-bottom" type="password" placeholder="Enter Password">
+                        <label>Confirm Password</label>
+                        <input class="w3-input w3-border w3-margin-bottom" type="password" placeholder="Enter Password">
+                        <button class="w3-black w3-btn-block w3-section w3-padding">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!--- END OF MODAL --->
+
+    <script>
+        function accordionFunction(id) {
+            var x = document.getElementById(id);
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+            } else {
+                x.className = x.className.replace(" w3-show", "");
+            }
+        }
+    </script>
+  </body>
+</html>
